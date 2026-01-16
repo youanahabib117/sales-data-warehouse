@@ -43,7 +43,7 @@ Notebook Sequence:
   - Table columns, column types, primary keys, and foreign keys were viewed to ensure proper structure and relations.
  
 ### Relational Database Structure:
-
+![Data Warehouse Architecture](documents/sales_warehouse_schema.png)
 
 ### Future Work:
 This project focuses on creating a usable data infrastructure for the company while preserving for them the original structure of the data. This data can be reorganized and stored in a more condense way that better supports analysis, with tables for each customers, products, and sales. This analytical data model is coming soon!
