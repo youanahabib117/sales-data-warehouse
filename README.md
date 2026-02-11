@@ -38,7 +38,7 @@ Notebook Sequence:
     - Changes included but not limited to:
       - Conditional data transformation
       - String manipulation (using SUBSTRING and REPLACE)
-      - Date correction (using LEAD)
+      - Date correction (using LEAD and LAG)
       - Trimming leading/trailing spaces
       - Correcting data type
       - Handling NULLs and duplicates appropriately (using COALESCE)
