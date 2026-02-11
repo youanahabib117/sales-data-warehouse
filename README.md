@@ -16,13 +16,16 @@ This project designs and builds a relational and analytical data model using CRM
 1.) **Revenue Generation by Product Type**
   - The top 20 revenue-generating products are all high-priced bikes, accounting for 63% of the company's total revenue.
   - There is a reliance on the bike category for overall profitability, therefore it is important for this business to maintain competitiveness in this segment.
+
 2.) **Underperforming Products/Categories**
   - The "Components" category shows $0 in sales, despite it having the largest number of products (127).
   - Aside from the products in the "Components" category, there are 38 other products that have not generated any sales.
   - I recommend reviewing the possibility of discontinuing the sale of these 165 products as this could reduce inventory costs for the company.
+
 3.) **Product Popularity**
   - The top 20 most popular items are mainly from the "Accessories" category, with these items generally being low-priced.
   - This suggests that the high volume of sales is driven by affordability.
+
 4.) **Sales Performance in 2013**
   - 2013 achieved an over $16M in sales, which is a 179.9% increase from 2012.
     - This increase was driven by a 6x increase in the number of orders compared to 2012, from both new and repeat customers.
@@ -30,6 +33,7 @@ This project designs and builds a relational and analytical data model using CRM
     - THe median and 25th percentile cost of products significanly decreased in 2013, suggesting that the company's strategy to cater to a broader customer base was a key factor in the sales spike
   - This may also be influenced by changed marketing strategies, such as website optimization or increased advertising.
     - This data is not available in this dataset, and would be something I would request and look into further to provide deeping insight.
+
 5.) **Seasonal Trends**
   - The months of June and October through December tend to show elevated sales.
   - This may be influenced by seasonal promotions, product availability, high-demand periods, or increased customer interest, which would be something to investigate in further given the data.
