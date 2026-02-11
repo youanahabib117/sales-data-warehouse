@@ -1,5 +1,5 @@
 # CRM and ERP Sales Warehouse - Relational and Analytical
-This project designs and builds a relational and analytical data model using CRM and ERP data representing customers, products, and sales. It demonstrates the implementation of an ETL pipeline includes advanced querying for data exploration, all of which is implemented using PostgreSQL in VSCode.
+This project designs and builds a relational and analytical data model using CRM and ERP data representing customers, products, and sales. It demonstrates the implementation of an ETL pipeline and includes advanced querying for data exploration and analysis to pull business insights, all of which is implemented using PostgreSQL in VSCode.
 
 ### Tech Stack Used:
 - PostgreSQL: For the DBMS, to design and implement the relational and analytical data model and ETL pipeline
