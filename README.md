@@ -24,18 +24,19 @@ This project designs and builds a relational and analytical data model using CRM
 
 3.) **Product Popularity**
   - The top 20 most popular items are mainly from the "Accessories" category, with these items generally being low-priced.
-  - This suggests that the high volume of sales is driven by affordability.
+  - This suggests that a high volume of sales is driven by affordability.
 
 4.) **Sales Performance in 2013**
   - 2013 achieved an over $16M in sales, which is a 179.9% increase from 2012.
     - This increase was driven by a 6x increase in the number of orders compared to 2012, from both new and repeat customers.
-    - Despite the higher volume of sales, the AOV was lower, indicating a shift towards the lower-priced items.
-    - THe median and 25th percentile cost of products significanly decreased in 2013, suggesting that the company's strategy to cater to a broader customer base was a key factor in the sales spike
+    - Despite the higher volume of sales, the average order value (AOV) was lower, indicating a shift towards the lower-priced items.
+    - The median and 25th percentile cost of products significanly decreased in 2013, suggesting that the company's strategy to cater to a broader customer base was a key factor in the sales spike
   - This may also be influenced by changed marketing strategies, such as website optimization or increased advertising.
-    - This data is not available in this dataset, and would be something I would request and look into further to provide deeping insight.
+    - This data is not available and would be something I would request and look into further to provide deeping insight.
 
 5.) **Seasonal Trends**
-  - The months of June and October through December tend to show elevated sales.
+  - The months of June and October through December tend to show elevated sales, with December being the best month for sales.
+  - January-April are months of low sales, with February being the worst month.
   - This may be influenced by seasonal promotions, product availability, high-demand periods, or increased customer interest, which would be something to investigate in further given the data.
 
 ### Dataset:
