@@ -6,7 +6,7 @@
 - [Objectives](#objectives)
 - [Dataset](#dataset)
 - [Outputs](#outputs)
-- [Methodology](#methodology)
+- [Scripts](#scripts)
 - [Relational Data Model](#relational-data-model)
 - [Analytical Data Model](#analytical-data-model)
 - [Key Insights](#key-insights)
@@ -37,10 +37,10 @@ This dataset is split into 6 CSV files, both CRM and ERP, containing information
 - Relational schema: Contains the 7 table relational data model. The original tables were preserved as much as possible, with relationships between one another. Appropriate data types were applied.
 - Analytical schema: Contains 3 tables organized in a fact-and-dimension model (specifically star schema), with sales as the fact and customers and products as the dimensions. Organized in a way to reduce the number of joins required during querying for efficiency purposes.
 
-## Methodology:
+## Scripts:
 Several .sql files were used throughout this project, which are meant to run in sequence. Therefore, data validation files were included when necessary to ensure that the required actions were performed on the data.
 
-Notebook Sequence:
+Scripts Sequence and Contents:
 - 00_setup
   - Three separate schemas created: raw, relational, and analytical
 - 01_load_raw
@@ -74,12 +74,16 @@ Notebook Sequence:
   - Fact (sales) and dimension (products and customers) tables were created with appropriate columns and populated with the data in the analytical views
   - Resulted in three final tables that are organized in a way that reduces the number of joins required during querying
 - 09_data_exploration
-  - Data in the analytical model was queried for exploration purposes, looking at:
-    - KPIs such as Total Sales, Total Products Sold, Total Customers, Average Order Total...
+  - The contents of the analytical schema was explored
+  - Information about the table columns was retrieved
+  - Table measures (KPIs such as Total Sales, Total Products Sold, Total Customers, Average Order Total...) were explored
+- 10_data_analysis
+  - Data in the analytical model was queried for, looking at:
     - Total products and average product cost and total revenue, all by category
-    - Top 20 revenue generating products, and the percentage of revenue they create
+    - Top 20 revenue generating products, and the percentage of revenue they generate
     - Shipping time
-  - Yearly and monthly sales trends were explored further to provide insights to the company as to how to maximize revenue
+  - Profit was analyzed, looking at gross margin percentage, top 20 profit-generating products, and most profitable products per unit
+  - Time-Series analysis was conducted, exploring yearly and monthly revenue and profit trends
  
 ## Relational Data Model:
 ![Data Warehouse Architecture](documents/relational_data_model.png)
