@@ -127,11 +127,11 @@ Scripts Sequence and Contents:
 
 ## Recommended Actions:
 - Protect and strengthen the bikes category, as it drives both revenue and profit through competitive pricing, innovation, and supply.
-- If this company takes a hit on sales on bikes, it will be detrimental to the company, consider strengthening other categories...................
+  - Because the company is so reliant on the bikes category, a decline in this category's performance would be a huge business risk, therefore consider strengthening other categories to diversify revenue and make the company more resilient.
 - Reduce inefficiencies by considering discontinuation or at the least a lower inventory for 165 products not contributing to revenue or profit.
 - Recommend the popular, lower cost accessories and clothing with a high profit margin during checkout to increase the average order cost and as a result, overall profitability.
   - Consider bundles for these products if possible.
-- Investigate the drivers behind the 2013 spike, such as marketing strategies or website enhancement, in order to replicate tactics that were deemed successful.
+- Further investigate other potential drivers behind the 2013 spike, such as marketing strategies or website enhancement, in order to replicate tactics that were deemed successful.
 - Consider increasing marketing or promotions during low-demand periods to smooth revenue across the months.
 
 ## Future Work:
