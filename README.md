@@ -1,4 +1,19 @@
 # CRM and ERP Sales Warehouse - Relational and Analytical
+
+- [Tech Stack Used](#tech-stack-used)
+- [Objectives](#objectives)
+- [Key Insights](#key-insights)
+- [Recommended Actions](#recommended-actions)
+- [Dataset](#dataset)
+- [Outputs](#outputs)
+- [Relational Data Model](#relational-data-model)
+- [Analytical Data Model](#analytical-data-model)
+- [Future Work](#future-work)
+- [Dataset](#dataset)
+- [Dataset](#dataset)
+- [Dataset](#dataset)
+
+### Overview
 This project designs and builds a relational and analytical data model using CRM and ERP data representing customers, products, and sales. It demonstrates the implementation of an ETL pipeline and includes advanced querying for data exploration and analysis to pull business insights, all of which is implemented using PostgreSQL in VSCode.
 
 ### Tech Stack Used:
@@ -15,22 +30,24 @@ This project designs and builds a relational and analytical data model using CRM
 ### Key Insights:
 1.) **Revenue Generation by Product Type**
   - The top 20 revenue-generating products are all high-priced bikes, accounting for 63% of the company's total revenue.
-  - There is a reliance on the bike category for overall profitability, therefore it is important for this business to maintain competitiveness in this segment.
+  - These same products are also the top 20 profit generators
+  - There is a reliance on the bike category for overall profitability, therefore **it is important for this business to maintain competitiveness in this segment**.
 
 2.) **Underperforming Products/Categories**
   - The "Components" category shows $0 in sales, despite it having the largest number of products (127).
   - Aside from the products in the "Components" category, there are 38 other products that have not generated any sales.
-  - I recommend reviewing the possibility of discontinuing the sale of these 165 products as this could reduce inventory costs for the company.
+  - **I recommend reviewing the possibility of discontinuing the sale of these 165 products as this could reduce inventory costs for the company**.
 
-3.) **Product Popularity**
-  - The top 20 most popular items are mainly from the "Accessories" category, with these items generally being low-priced.
-  - This suggests that a high volume of sales is driven by affordability.
+3.) **Product Popularity and Profitability**
+  - The top 20 most popular items are mainly from the "Accessories" category, with these items generally being low-priced, suggesting that a high volume of sales is driven by affordability.
+  - The top 20 products with the highest gross margin percent per item are also low priced accessories and clothing.
 
 4.) **Sales Performance in 2013**
   - 2013 achieved an over $16M in sales, which is a 179.9% increase from 2012.
     - This increase was driven by a 6x increase in the number of orders compared to 2012, from both new and repeat customers.
     - Despite the higher volume of sales, the average order value (AOV) was lower, indicating a shift towards the lower-priced items.
-    - The median and 25th percentile cost of products significanly decreased in 2013, suggesting that the company's strategy to cater to a broader customer base was a key factor in the sales spike
+    - The median and 25th percentile cost of products significantly decreased in 2013, suggesting that the company's strategy to cater to a broader customer base was a key factor in the sales spike.
+  - 2013 year-over-year profit growth was 187.5% while increasing gross margin slightly, with a +1.1% margin change.
   - This may also be influenced by changed marketing strategies, such as website optimization or increased advertising.
     - This data is not available and would be something I would request and look into further to provide deeping insight.
 
@@ -38,6 +55,20 @@ This project designs and builds a relational and analytical data model using CRM
   - The months of June and October through December tend to show elevated sales, with December being the best month for sales.
   - January-April are months of low sales, with February being the worst month.
   - This may be influenced by seasonal promotions, product availability, high-demand periods, or increased customer interest, which would be something to investigate in further given the data.
+
+6.) **Overall Company Profitability**
+- The company's overall gross margin is 42.21%, indicating strong profitability.
+- No products were found to be selling at a loss or a breakeven price.
+- High priced bikes drive the company's high revenue and profit, with lower priced accessories and clothing have high per-item profitability.
+
+### Recommended Actions:
+- Protect and strengthen the bikes category, as it drives both revenue and profit through competitive pricing, innovation, and supply.
+- If this company takes a hit on sales on bikes, it will be detrimental to the company, consider strengthening other categories...................
+- Reduce inefficiencies by considering discontinuation or at the least a lower inventory for 165 products not contributing to revenue or profit.
+- Recommend the popular, lower cost accessories and clothing with a high profit margin during checkout to increase the average order cost and as a result, overall profitability.
+  - Consider bundles for these products if possible.
+- Investigate the drivers behind the 2013 spike, such as marketing strategies or website enhancement, in order to replicate tactics that were deemed successful.
+- Consider increasing marketing or promotions during low-demand periods to smooth revenue across the months.
 
 ### Dataset:
 Source: https://github.com/DataWithBaraa/sql-data-warehouse-project/tree/main
