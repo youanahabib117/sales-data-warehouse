@@ -1,20 +1,19 @@
 # CRM and ERP Sales Warehouse - Relational and Analytical
 
+## Summary:
+This project designs and builds relational and analytical data models from raw CRM and ERP data representing customers, products, and sales, all of which is implemented using PostgreSQL in VSCode. It includes data cleaning, transformation, validation, and the developement of an ETL pipeline. Using advanced SQL queries, time-series analysis of revenue and profit were conducted to evaluate the company's performance. Crucial business insights were uncovered and recommendations made regarding their sales performance and product efficiency. 
+
 ## Table of Contents
-- [Overview](#overview)
 - [Tech Stack Used](#tech-stack-used)
 - [Objectives](#objectives)
 - [Dataset](#dataset)
-- [Outputs](#outputs)
 - [Scripts](#scripts)
+- [Data Warehouse Outputs](#data-warehouse-outputs)
 - [Relational Data Model](#relational-data-model)
 - [Analytical Data Model](#analytical-data-model)
 - [Key Insights](#key-insights)
 - [Recommended Actions](#recommended-actions)
 - [Future Work](#future-work)
-
-## Overview
-This project designs and builds a relational and analytical data model using CRM and ERP data representing customers, products, and sales. It demonstrates the implementation of an ETL pipeline and includes advanced querying for data exploration and analysis to pull business insights, all of which is implemented using PostgreSQL in VSCode.
 
 ## Tech Stack Used:
 - PostgreSQL: For the DBMS, to design and implement the relational and analytical data model and ETL pipeline
@@ -26,16 +25,12 @@ This project designs and builds a relational and analytical data model using CRM
 - Perform data cleaning and resolve data quality issues
 - Design a relational data model connecting all tables while preserving their original formats as much as possible
 - Further design and implement an analytical data model to be used for data exploration and data analysis
+- Analyze company's data to make recommendations based on insights uncovered
 
 ## Dataset:
 Source: https://github.com/DataWithBaraa/sql-data-warehouse-project/tree/main
 
 This dataset is split into 6 CSV files, both CRM and ERP, containing information on a company's customers, products, and orders.
-
-## Outputs:
-- Raw schema: Created by importing the CSV files as is, one table per CSV file. Data was not changed in any way. Contains 6 tables, where all column data types are "text" to prevent loss of information on import.
-- Relational schema: Contains the 7 table relational data model. The original tables were preserved as much as possible, with relationships between one another. Appropriate data types were applied.
-- Analytical schema: Contains 3 tables organized in a fact-and-dimension model (specifically star schema), with sales as the fact and customers and products as the dimensions. Organized in a way to reduce the number of joins required during querying for efficiency purposes.
 
 ## Scripts:
 Several .sql files were used throughout this project, which are meant to run in sequence. Therefore, data validation files were included when necessary to ensure that the required actions were performed on the data.
@@ -84,6 +79,11 @@ Scripts Sequence and Contents:
     - Shipping time
   - Profit was analyzed, looking at gross margin percentage, top 20 profit-generating products, and most profitable products per unit
   - Time-Series analysis was conducted, exploring yearly and monthly revenue and profit trends
+
+## Data Warehouse Outputs:
+- Raw schema: Created by importing the CSV files as is, one table per CSV file. Data was not changed in any way. Contains 6 tables, where all column data types are "text" to prevent loss of information on import.
+- Relational schema: Contains the 7 table relational data model. The original tables were preserved as much as possible, with relationships between one another. Appropriate data types were applied.
+- Analytical schema: Contains 3 tables organized in a fact-and-dimension model (specifically star schema), with sales as the fact and customers and products as the dimensions. Organized in a way to reduce the number of joins required during querying for efficiency purposes.
  
 ## Relational Data Model:
 ![Data Warehouse Architecture](documents/relational_data_model.png)
