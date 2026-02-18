@@ -89,7 +89,7 @@ Scripts Sequence and Contents:
 ![Data Warehouse Architecture](documents/relational_data_model.png)
 
 ## Analytical Data Model:
-![Data Warehouse Architecture](documents/analytical_data_model.png)
+![Data Warehouse Architecture](documents/analytics_data_model.png)
 
 ## Key Insights:
 1.) **Revenue Generation by Product Type**
