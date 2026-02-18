@@ -13,7 +13,7 @@ This project designs and builds relational and analytical data models from raw C
 - [Analytical Data Model](#analytical-data-model)
 - [Key Insights](#key-insights)
 - [Recommended Actions](#recommended-actions)
-- [Future Work](#future-work)
+- [Dashboard](#dashboard)
 
 ## Tech Stack Used:
 - PostgreSQL: For the DBMS, to design and implement the relational and analytical data model and ETL pipeline
@@ -134,5 +134,7 @@ Scripts Sequence and Contents:
 - Further investigate other potential drivers behind the 2013 spike, such as marketing strategies or website enhancement, in order to replicate tactics that were deemed successful.
 - Consider increasing marketing or promotions during low-demand periods to smooth revenue across the months.
 
-## Future Work:
-This project focuses on creating a usable data infrastructure for the company while preserving for them the original structure of the data. This data was then reorganized and stored in a more condense way that better supports analysis, with tables for each customers, products, and sales. This model can be integrated with Tableau or PowerBI and used to build a dashboard, visualizing important business metrics such as KPIs, product performance, and sales trends. This dashboard is coming soon!
+## Dashboard
+A dashboard was built visualizing key performance indicators (KPIs), product performance and sales trends.
+
+https://public.tableau.com/views/SalesDashboard_17714013419490/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
