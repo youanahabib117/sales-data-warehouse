@@ -89,7 +89,7 @@ Scripts Sequence and Contents:
 ![Data Warehouse Architecture](documents/relational_data_model.png)
 
 ## Analytical Data Model:
-![Data Warehouse Architecture](documents/analytics_data_model.png)
+![Data Warehouse Architecture](documents/analytical_data_model.png)
 
 ## Key Insights:
 1.) **Revenue Generation by Product Type**
@@ -138,3 +138,4 @@ Scripts Sequence and Contents:
 A [Sales Dashboard](https://public.tableau.com/views/SalesAnalysis_17714863468170/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) was built visualizing key performance indicators (KPIs), sales and profit trends, and product performance. This dashboard supports filtering by date, product, and country using either the visualizations or the collapsible filter panel.
 
 ![Sales Dashboard - Overview](documents/sales_dashboard_overview.png)
+
