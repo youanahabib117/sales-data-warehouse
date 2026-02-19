@@ -135,6 +135,6 @@ Scripts Sequence and Contents:
 - Consider increasing marketing or promotions during low-demand periods to smooth revenue across the months.
 
 ## Dashboard
-A dashboard was built visualizing key performance indicators (KPIs), product performance and sales trends.
+A [Sales Dashboard](https://public.tableau.com/views/SalesAnalysis_17714863468170/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) was built visualizing key performance indicators (KPIs), sales and profit trends, and product performance. This dashboard supports filtering by date, product, and country using either the visualizations or the collapsible filter panel.
 
-https://public.tableau.com/views/SalesDashboard_17714013419490/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+![Sales Dashboard - Overview](documents/sales_dashboard_overview.png)
