@@ -137,5 +137,5 @@ Scripts Sequence and Contents:
 ## Dashboard
 A [Sales Dashboard](https://public.tableau.com/views/SalesAnalysis_17714863468170/SalesDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) was built visualizing key performance indicators (KPIs), sales and profit trends, and product performance. This dashboard supports filtering by date, product, and country using either the visualizations or the collapsible filter panel.
 
-![Sales Dashboard - Overview](documents/sales_dashboard.png)
+![Sales Dashboard - Overview](documents/dashboard_view.png)
 
